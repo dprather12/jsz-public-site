@@ -6,16 +6,17 @@
   <title>JSZ Caregiving</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-amber-50 text-gray-800">
+<body class="bg-white text-gray-800">
   <!-- Header -->
   <header class="bg-white shadow-md">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row sm:justify-between sm:items-center">
-      <div class="flex items-center justify-center sm:justify-start mb-2 sm:mb-0">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row sm:justify-between sm:items-center">
+      <div class="flex items-center justify-center sm:justify-start">
         <img src="logo.png" alt="JSZ Caregiving Logo" class="h-12 w-auto" />
       </div>
-      <nav class="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-sm text-gray-700">
+      <nav class="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-sm text-gray-700 mt-2 sm:mt-0">
         <a href="#about" class="hover:text-orange-600">About Us</a>
         <a href="#services" class="hover:text-orange-600">Services</a>
+        <a href="#careers" class="hover:text-orange-600">Careers</a>
         <a href="#contact" class="hover:text-orange-600">Contact</a>
       </nav>
     </div>
@@ -24,39 +25,39 @@
   <!-- Hero Section -->
   <section class="bg-orange-100 py-12 px-4 text-center">
     <div class="max-w-4xl mx-auto">
-      <h2 class="text-3xl sm:text-4xl font-semibold text-orange-800 mb-4">Caring for People Starts with Caring for Caregivers</h2>
-      <p class="text-md sm:text-lg text-gray-700 mb-6">At JSZ Caregiving, we take care of our caregivers — offering the support, encouragement, and respect they need to build lasting, trusted relationships with your loved ones.</p>
-      <img src="https://images.pexels.com/photos/6646914/pexels-photo-6646914.jpeg?auto=compress&cs=tinysrgb&h=600" alt="Caregiver with elderly person" class="mx-auto rounded-xl shadow-lg w-full max-w-sm sm:max-w-md">
+      <h2 class="text-4xl font-semibold text-orange-800 mb-4">Caring for People Starts with Caring for Caregivers</h2>
+      <p class="text-lg text-gray-700 mb-6">At JSZ Caregiving, we support our caregivers with trust, encouragement, and respect — so they can provide lasting, meaningful care to the families they serve.</p>
+      <img src="linked-hands.jpeg" alt="Caregiver with child" class="mx-auto rounded-xl shadow-lg w-full max-w-sm sm:max-w-md">
     </div>
   </section>
 
   <!-- About Us -->
   <section id="about" class="py-16 px-4 bg-white">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-semibold text-orange-800 mb-6 text-center">About Us</h3>
-      <div class="grid md:grid-cols-2 gap-8 items-center">
-        <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+      <div class="text-center md:text-left">
+        <h3 class="text-3xl font-semibold text-orange-800 mb-6">About Us</h3>
+        <p class="text-gray-700 text-lg leading-relaxed">
           JSZ Caregiving was founded on a belief that better care starts with better caregivers. We prioritize quality of life — for our clients and our team. By supporting our caregivers and treating them with the respect they deserve, we reduce turnover and create long-term, familiar relationships that lead to more comfortable, consistent care.
         </p>
-        <img src="https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&h=600" alt="Caregiver holding elderly hand" class="rounded-lg shadow-md w-full max-w-md mx-auto">
       </div>
+      <img src="https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&h=600" alt="Caregiver holding hand" class="rounded-lg shadow-md w-full max-w-md mx-auto">
     </div>
   </section>
 
   <!-- Services -->
   <section id="services" class="py-16 px-4 bg-orange-100">
     <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-semibold text-orange-800 mb-6 text-center">Our Services</h3>
+      <h3 class="text-3xl font-semibold text-orange-800 mb-8 text-center">Our Services</h3>
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <div class="bg-white p-6 rounded-lg shadow">
+        <div class="bg-white p-6 rounded-lg shadow text-center">
           <h4 class="text-xl font-semibold text-orange-700 mb-2">Personal Care</h4>
           <p class="text-gray-600">Support with bathing, dressing, grooming, and mobility — all delivered with dignity and compassion.</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow">
+        <div class="bg-white p-6 rounded-lg shadow text-center">
           <h4 class="text-xl font-semibold text-orange-700 mb-2">Companionship</h4>
           <p class="text-gray-600">Warm, friendly interaction and presence to ease loneliness and bring comfort to daily routines.</p>
         </div>
-        <div class="bg-white p-6 rounded-lg shadow">
+        <div class="bg-white p-6 rounded-lg shadow text-center">
           <h4 class="text-xl font-semibold text-orange-700 mb-2">Medication Reminders</h4>
           <p class="text-gray-600">Timely reminders to ensure medications are taken correctly and consistently, with peace of mind.</p>
         </div>
@@ -64,19 +65,34 @@
     </div>
   </section>
 
+  <!-- Careers -->
+  <section id="careers" class="py-16 px-4 bg-white">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold text-orange-800 mb-4">Join Our Team</h3>
+      <p class="text-lg text-gray-700 mb-6">We believe caregiving is a calling — and we’re looking for kind, compassionate people to grow with us. If you’re passionate about making a difference in someone’s life, we’d love to hear from you.</p>
+      <a href="https://www.indeed.com/cmp/Jsz-Caregiving" target="_blank" rel="noopener noreferrer" class="inline-block bg-orange-100 text-orange-800 font-semibold px-6 py-3 rounded shadow hover:bg-orange-200 transition">
+        View Job Openings
+      </a>
+    </div>
+  </section>
+
   <!-- Contact -->
-  <section id="contact" class="py-16 px-4 bg-white">
+  <section id="contact" class="py-16 px-4 bg-orange-100">
     <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-semibold text-orange-800 mb-6">Get in Touch</h3>
-      <p class="text-gray-700 mb-4">We’d love to talk with you about your care needs. Whether you're seeking services or looking to join our team, we’re here to help.</p>
+      <p class="text-gray-700 mb-4 text-lg">We’d love to talk with you about your care needs. Whether you're seeking services or looking to join our team, we’re here to help.</p>
       <p class="text-lg text-orange-700 font-medium">Email: <a href="mailto:info@jszcaregiving.com" class="underline">info@jszcaregiving.com</a></p>
       <p class="text-lg text-orange-700 font-medium">Phone: <a href="tel:555-867-5309" class="underline">(555) 867-5309</a></p>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-amber-50 text-center text-sm py-4 text-gray-600">
-    © 2025 JSZ Caregiving. All rights reserved.
-  </footer>
+<!-- Footer -->
+<footer class="text-center text-sm py-4 text-gray-600">
+  © <span id="year"></span> JSZ Caregiving. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
