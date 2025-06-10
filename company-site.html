@@ -37,8 +37,7 @@
               light: '#F0F5EE',    // Light Sage Tint for background stripes
               DEFAULT: '#A3B899', // Soft Sage Green for accents
               dark: '#495A42'      // Deep Forest for headings and important text
-            },
-            'brand-accent': '#D4B996' // Warm Sand for the main Call-to-Action button
+            }
           }
         }
       }
@@ -65,10 +64,9 @@
       </div>
       <nav class="flex flex-row flex-wrap items-center justify-center gap-4 text-sm text-gray-700 mt-2 sm:mt-0">
         <a href="#why-we-exist" class="hover:text-brand-sage-dark">Why We Exist</a>
-        <a href="#about" class="hover:text-brand-sage-dark">About Us</a>
-        <a href="#services" class="hover:text-brand-sage-dark">Services</a>
-        <a href="#careers" class="hover:text-brand-sage-dark">Careers</a>
-        <a href="#contact" class="hover:text-brand-sage-dark">Contact</a>
+        <a href="#about" class="hover:text-brand-sage-dark">Our Approach</a>
+        <a href="#services" class="hover:text-brand-sage-dark">Our Services</a>
+        <a href="#careers" class="hover:text-brand-sage-dark">Join Our Team</a>
       </nav>
     </div>
   </header>
@@ -80,10 +78,10 @@
       <p class="text-xl text-gray-700 leading-relaxed max-w-2xl mx-auto mb-6">
         At JSZ Caregiving we believe it's okay not to have all the answers, so let's start with your questions.
       </p>
-      <a href="mailto:contact@jszcaregiving.com?subject=Care%20Inquiry&body=Name:%0ACounty:%0A%0AYour%20questions:"
-        onclick="gtag('event', 'click', { event_category: 'Hero', event_label: 'Ask a Question Button', value: 1 });"
-        class="inline-block bg-brand-accent text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition mb-8">
-        Ask a Question
+      <!-- ACTION: Replace 'https://example.com/1' with your link -->
+      <a href="https://example.com/1" target="_blank" rel="noopener noreferrer"
+        class="inline-block bg-brand-sage-dark text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition mb-8">
+        Ask us a Question
       </a>
       <img src="linked-hands.jpeg" alt="Hands linked in a symbol of care and connection"
         class="mx-auto rounded-xl shadow-lg w-full max-w-sm sm:max-w-md">
@@ -100,15 +98,14 @@
           support of people we feel comfortable and important around, we can all grow wings.
         </p>
         <p>
-          We support our DSPs with industry leading pay (~30% above average) and the freedom to choose the clients that
-          they feel a connection with. And when they feel empowered to serve your family, you can feel reassured that
-          they will do their best.
-        </p>
-        <p>
           On paper, we employ DSPs to support individuals with developmental disabilities. But in our heart, we improve
           our employees’ lives so that they can pay it forward to you.
         </p>
       </div>
+      <!-- ACTION: Replace 'https://example.com/2' with your link -->
+      <a href="https://example.com/2" target="_blank" rel="noopener noreferrer" class="inline-block mt-8 bg-brand-sage-dark text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition">
+        How can our DSPs support you?
+      </a>
     </div>
   </section>
 
@@ -117,13 +114,25 @@
     <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
       <div>
         <h3 class="text-3xl font-semibold text-brand-sage-dark mb-6 text-center md:text-left">Our Approach</h3>
-        <p class="text-gray-700 text-lg leading-relaxed">
-          At JSZ Caregiving we believe that better care starts with better caregivers and ends with the kind of care
-          that you want. And in between, it means trusting the same employee to show up everyday and commit to a
-          relationship that lasts for years.
-        </p>
+        <div class="space-y-6 text-lg text-gray-700 leading-relaxed mb-6">
+          <p>
+            At JSZ Caregiving we believe that better care starts with better caregivers and ends with the kind of care
+            that you want. And in between, it means trusting the same employee to show up everyday and commit to a
+            relationship that lasts for years.
+          </p>
+          <p>
+            We support our DSPs with industry leading pay (~30% above average) and the freedom to choose the clients that
+            they feel a connection with. And when they feel empowered to serve your family, you can feel reassured that
+            they will do their best.
+          </p>
+        </div>
+        <div class="text-center md:text-left">
+           <!-- ACTION: Replace 'https://example.com/3' with your link -->
+           <a href="https://example.com/3" target="_blank" rel="noopener noreferrer" class="inline-block bg-brand-sage-dark text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition">
+            What kind of care are you looking for?
+          </a>
+        </div>
       </div>
-      <!-- ACTION: Download this image and host it on your site to prevent broken links -->
       <img src="https://images.pexels.com/photos/339620/pexels-photo-339620.jpeg?auto=compress&cs=tinysrgb&h=600"
         alt="Caregiver holding hand of an elderly person" class="rounded-lg shadow-md w-full max-w-md mx-auto">
     </div>
@@ -131,25 +140,29 @@
 
   <!-- Services -->
   <section id="services" class="py-16 px-4 bg-white">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-semibold text-brand-sage-dark mb-8 text-center">Our Services</h3>
-      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <div class="bg-brand-sage-light p-6 rounded-lg shadow text-center">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold text-brand-sage-dark mb-8">Our Services</h3>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 text-left">
+        <div class="bg-brand-sage-light p-6 rounded-lg shadow">
           <h4 class="text-xl font-semibold text-brand-sage-dark mb-2">Personal Care</h4>
           <p class="text-gray-700">Support with bathing, dressing, grooming, and mobility — all delivered with dignity
             and compassion.</p>
         </div>
-        <div class="bg-brand-sage-light p-6 rounded-lg shadow text-center">
+        <div class="bg-brand-sage-light p-6 rounded-lg shadow">
           <h4 class="text-xl font-semibold text-brand-sage-dark mb-2">Companionship</h4>
           <p class="text-gray-700">Warm, friendly interaction and presence to ease loneliness and bring comfort to daily
             routines.</p>
         </div>
-        <div class="bg-brand-sage-light p-6 rounded-lg shadow text-center">
+        <div class="bg-brand-sage-light p-6 rounded-lg shadow">
           <h4 class="text-xl font-semibold text-brand-sage-dark mb-2">Medication Reminders</h4>
           <p class="text-gray-700">Timely reminders to ensure medications are taken correctly and consistently — with
             peace of mind.</p>
         </div>
       </div>
+       <!-- ACTION: Replace 'https://example.com/4' with your link -->
+       <a href="https://example.com/4" target="_blank" rel="noopener noreferrer" class="inline-block mt-8 bg-brand-sage-dark text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition">
+        Request a Consultation
+      </a>
     </div>
   </section>
 
@@ -157,41 +170,18 @@
   <section id="careers" class="py-16 px-4 bg-brand-sage-light">
     <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-semibold text-brand-sage-dark mb-4">Join Our Team</h3>
-      <p class="text-lg text-gray-700 mb-6">We believe caregiving is a calling — and we’re looking for kind,
-        compassionate people to grow with us. If you're passionate about making a difference, we’d love to meet you.</p>
-      <a href="https://www.indeed.com/cmp/Jsz-Caregiving" target="_blank" rel="noopener noreferrer" onclick="gtag('event', 'click', {
-           event_category: 'Careers',
-           event_label: 'Indeed Button',
-           value: 1
-         });"
-        class="inline-block bg-brand-accent text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition">
+      <p class="text-lg text-gray-700 mb-6">
+        Do you want a company that cares about you as much as you care about your clients?
+      </p>
+      <a href="https://www.indeed.com/cmp/Jsz-Caregiving" target="_blank" rel="noopener noreferrer"
+        class="inline-block bg-brand-sage-dark text-white font-semibold px-6 py-3 rounded shadow hover:opacity-90 transition">
         View Job Openings
       </a>
     </div>
   </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-16 px-4 bg-white">
-    <div class="max-w-4xl mx-auto text-center">
-      <h3 class="text-3xl font-semibold text-brand-sage-dark mb-6">Get in Touch</h3>
-      <p class="text-gray-700 mb-4 text-lg">Let’s talk about how we can support your care journey — whether you're
-        seeking services or looking to join our team.</p>
-      <p class="text-lg text-brand-sage-dark font-medium">Email:
-        <a href="mailto:contact@jszcaregiving.com?subject=Care%20Inquiry%20from%20Website&body=Name:%0ACounty:%0A%0AYour%20questions:" onclick="gtag('event', 'click', {
-     event_category: 'Contact',
-     event_label: 'Email Link',
-     value: 1
-   });" class="underline hover:text-brand-sage">contact@jszcaregiving.com</a>
-
-      </p>
-      <!-- ACTION: Replace this placeholder phone number with your real business number -->
-      <p class="text-lg text-brand-sage-dark font-medium">Phone: <a href="tel:555-867-5309"
-          class="underline hover:text-brand-sage">(555) 867-5309</a></p>
-    </div>
-  </section>
-
+  
   <!-- Footer -->
-  <footer class="text-center text-sm py-4 text-gray-600 bg-brand-sage-light">
+  <footer class="text-center text-sm py-4 text-gray-600 bg-white">
     © <span id="year"></span> JSZ Caregiving. All rights reserved.
   </footer>
 
